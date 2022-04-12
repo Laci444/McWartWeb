@@ -1,0 +1,1 @@
+alert('Yey! It works!');
