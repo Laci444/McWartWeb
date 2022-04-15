@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import pageModel
+from .models import newModel
 
 # Register your models here.
-admin.site.register(pageModel)
+admin.site.register(newModel)

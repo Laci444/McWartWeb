@@ -1,5 +1,10 @@
 from django.shortcuts import render
+from .models import pageModel
 
 # Create your views here.
 def indexView(request):
-    return render(request, 'index.html')
+    context_obj = {
+        'pages': pageModel.objects.all()
+    }
+
+    return render(request, 'index.html', context=context_obj)
