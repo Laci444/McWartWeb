@@ -131,3 +131,4 @@ dmypy.json
 
 # sajat dolgok
 media/
+migrations/

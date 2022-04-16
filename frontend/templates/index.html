@@ -14,5 +14,10 @@
 </head>
 <body>
     <h1>Basic HTML Unga-Bunga</h1>
+    {% for page in pages %}
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.content }}</p>
+        <img src="{{ page.image.url }}" style="width: 40%;" alt="Nem sikerült betölteni">
+    {% endfor %}
 </body>
 </html>

@@ -10,6 +10,10 @@
 </head>
 <body>
     Hali
-    {{ news.object_list }}
+    {% for new in news %}
+        <h1>{{ new.title }}</h1>
+        <p>{{ new.content }}</p>
+        <img src="{{ new.image.url }}" style="width: 40%;" alt="Nem sikerült betölteni">
+    {% endfor %}
 </body>
 </html>
