@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Laci">
+    <meta name="description" content="Webpage for the 24 hour competition by the McWart team">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="{% static 'script.js' %}" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Basic HTML Unga-Bunga</h1>
+    {% for page in pages %}
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.content }}</p>
+        <img src="{{ page.image.url }}" style="width: 40%;" alt="Nem sikerült betölteni">
+    {% endfor %}
+</body>
+</html>
