@@ -26,7 +26,7 @@ FRONT_END = BASE_DIR.parent / 'frontend'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -146,3 +146,4 @@ SECURE_REFERRER_POLICY = "strict-origin-when-cross-origin"
 CSP_STYLE_SRC = ["'self'", "cdn.jsdelivr.net", "fonts.googleapis.com", "fonts.cdnfonts.com", ]
 CSP_SCRIPT_SRC = ["'self'", "cdn.jsdelivr.net", ]
 CSP_FONT_SRC = ["'self'", "fonts.googleapis.com", "fonts.cdnfonts.com", "fonts.gstatic.com"]
+CSP_IMG_SRC = ["'self'", "web.archive.org"]

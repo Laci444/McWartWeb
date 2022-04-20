@@ -1,0 +1,250 @@
+div#dbhu-header{
+  position:relative;
+  margin-bottom: 1em;
+
+}
+	div#dbhu-header #dbhu-spacer{
+	  position: relative;
+		width:100%;
+		height: 100px;
+		clear: both;
+		background: white;
+	}
+  #dbhu-logo{
+    display: block;
+    position: absolute;
+    top: 44px;
+    left: 0px;
+  }
+	#dbhu-xmas-logo{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  div#dbhu-header div#dbhu-langbar{
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 347px;
+  }
+  div#dbhu-header div.dbhu-banner{
+    display: block;
+    position: absolute;
+    width: 468px;
+    height: 60px;
+    top: 30px;
+    left: 295px;
+    border: 1px dashed silver; /* DEBUG: should be removed when banner is set*/
+  }
+
+  div#dbhu-header ul#dbhu-mainmenu{
+		height: 24px;
+		width: 100%;
+		position: relative;
+		background: url(https://web.archive.org/web/20071028134054im_/http://portal.debrecen.hu/images/menu_bg.jpg) repeat-x transparent;
+		margin-right: 2px;
+	}
+	div#dbhu-header ul#dbhu-mainmenu li{
+	  display: block;
+	  float: left;
+	  height: 24px; line-height: 24px;
+		background: url(https://web.archive.org/web/20071028134054im_/http://portal.debrecen.hu/images/menu_sep.jpg) no-repeat transparent;
+	}
+	div#dbhu-header ul#dbhu-mainmenu img{
+		display: none;
+	}
+	div#dbhu-header ul#dbhu-mainmenu li a{
+		position: relative;
+		display:block;
+		z-index:4;
+		height: 20px;
+		background-position: 0px 24px;
+		margin-left: 2px;
+		line-height:20px;
+		white-space: nowrap;
+
+	}
+
+	div#dbhu-header ul#dbhu-mainmenu li a:hover,div#dbhu-header ul#dbhu-mainmenu li a.dbhu-active{
+	  /*background: url(https://web.archive.org/web/20071028134054im_/http://portal.debrecen.hu/images/menu_hl.jpg) 0px 20px  repeat-x transparent;*/
+	  /*background-position: top;*/
+	  height: 24px;
+	  text-decoration: none;
+	}
+	div#dbhu-header ul#dbhu-mainmenu ul{
+		display: none;
+	}
+
+div#dbhu-container{
+  width:764px;
+  margin:0 0 0 31px;
+}
+div#dbhu-wrapper{
+	float:left;
+	width:100%;
+	clear: both;
+	position: relative;
+	background: transparent;
+}
+div#dbhu-content{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 182px; /*DEBUG: differs on some pages*/
+  margin-right: 220px; /*DEBUG: differs on some pages*/
+  background: transparent;
+  position: relative;
+  z-index: 3;
+}
+div#dbhu-content.dbhu-additional{
+	margin-left: 224px;
+	margin-right: 0px;
+}
+div#dbhu-content.dbhu-textbox-full{
+	margin-left: 1px;
+	margin-right: 0px;
+}
+div#dbhu-navigation{
+	background: rgb(255,255,255);
+  position: relative;
+  float:left;
+  width:170px;/*DEBUG: same as content left margin - 12px!*/
+  margin-left:-764px;
+
+}
+div#dbhu-extra{
+	background: rgb(225,230,237);
+  position: relative;
+  float:right;
+  width:216px;/*DEBUG: same as content right margin -14px!*/
+  margin-left:-216px;/*DEBUG: same as content right margin -14px!*/
+  clear: right;
+  text-align: left;
+}
+div#dbhu-extra.dbhu-navigation-extra{
+	float: left;
+	clear: none;
+	margin-left:-764px;
+}
+
+div#dbhu-footer{
+  clear:both;
+  width:100%;
+  height: 132px;
+  color:  rgb(255,255,255);
+}
+	div#dbhu-footer p.dbhu-foobar{ /* :) */
+		width:auto;
+		height: 20px;
+		background: rgb(50,75,128);
+		text-align: left;
+		padding: 0 12px 0 7px;
+		clear: both;
+	}
+	  div#dbhu-footer p.dbhu-foobar span{
+	    position: relative;
+	    height: 20px; line-height: 20px;
+	  }
+	div#dbhu-footer a{
+		background:rgb(50,75,128);
+		color:  rgb(255,255,255);
+	}
+  div#dbhu-footer a:hover{text-decoration: underline;}
+
+#dbhu-mie, #dbhu-eut, #dbhu-euf{
+	background: none !important;
+	padding:0;
+	text-decoration: none;
+	float: right;
+	margin: 12px 0 0 0;
+}
+#dbhu-euf{
+	margin-left: 6px;
+}
+#dbhu-eu{
+	clear: right;
+}
+
+.dbhu-thirdmenu div#dbhu-content{
+  margin-left: 228px ; /*DEBUG: differs on some pages 170+12>216+12*/
+  margin-right: 184px ; /*DEBUG: differs on some pages 216+14>170+14*/
+}
+.dbhu-thirdmenu #dbhu-navigation{
+	float:right ;
+  margin-left:-170px ;/*DEBUG: same as content right margin -14px!*/
+  clear: right ;
+}
+.dbhu-thirdmenu div#dbhu-extra {
+  float:left ;
+  margin-left:-764px ;
+  clear:none;
+}
+.dbhu-cikk #dbhu-navigation{
+	float:right ;
+  margin-left:-170px ;/*DEBUG: same as content right margin -14px!*/
+  clear: right ;
+}
+.dbhu-cikk div#dbhu-extra {
+  float:left ;
+  margin-left:-764px ;
+  clear:none;
+}
+.dbhu-cikk div#dbhu-content{
+  margin-left: 224px ; /*DEBUG: differs on some pages 170+12>216+12*/
+  margin-right: 178px ; /*DEBUG: differs on some pages 216+14>170+14*/
+}
+.dbhu-newsbox-bordered img,.dbhu-article img,.dbhu-cikk-lead-full img,.dbhu-textbox img{
+	margin: 7px !important;
+}
+.dbhu-article p{
+	margin-top:.5em;
+
+}
+.dbhu-filler2,.dbhu-filler5,.dbhu-filler10{
+	width: auto;
+	clear: both;
+	height: 2em;	
+}
+.dbhu-filler5{
+	height: 5em;
+}
+.dbhu-filler10{
+	height: 10em;
+}
+.dbhu-filler20{
+	height: 20em;
+}
+.dbhu-filler50{
+	height: 50em;
+}
+.dbhu-banner120X240{
+	width: 120px;
+	height: 240px;
+	background: #ddd;
+	position: absolute;
+	top: 134px;
+	right: -10px;
+}
+
+/*
+     FILE ARCHIVED ON 13:40:54 Oct 28, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:33:28 Apr 19, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 63.906
+  exclusion.robots: 0.105
+  exclusion.robots.policy: 0.097
+  RedisCDXSource: 0.641
+  esindex: 0.009
+  LoadShardBlock: 36.278 (3)
+  PetaboxLoader3.datanode: 62.572 (4)
+  CDXLines.iter: 21.415 (3)
+  load_resource: 104.719
+  PetaboxLoader3.resolve: 36.121
+*/
