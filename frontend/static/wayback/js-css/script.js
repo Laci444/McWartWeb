@@ -10,3 +10,4 @@ document.querySelectorAll('a').forEach(element => {
       alert('Ez egy demo változat. A linkek nem működnek!');
     });
   });
+window.scrollTo(0, 357);

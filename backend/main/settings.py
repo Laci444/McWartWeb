@@ -144,6 +144,6 @@ SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 SECURE_REFERRER_POLICY = "strict-origin-when-cross-origin"
 
 CSP_STYLE_SRC = ["'self'", "cdn.jsdelivr.net", "fonts.googleapis.com", "fonts.cdnfonts.com", ]
-CSP_SCRIPT_SRC = ["'self'", "cdn.jsdelivr.net", ]
+CSP_SCRIPT_SRC = ["'self'", "cdn.jsdelivr.net", "cdnjs.cloudflare.com", "unpkg.com", ]
 CSP_FONT_SRC = ["'self'", "fonts.googleapis.com", "fonts.cdnfonts.com", "fonts.gstatic.com"]
 CSP_IMG_SRC = ["'self'", "web.archive.org"]

@@ -11,3 +11,6 @@ def indexView(request):
 
 def waybackView(request):
     return render(request, 'wayback.html')
+
+def timebackView(request):
+    return render(request, 'timemachine.html')
