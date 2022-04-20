@@ -13,7 +13,9 @@
     {% for new in news %}
         <h1>{{ new.title }}</h1>
         <p>{{ new.content }}</p>
+	{% if new.image %}
         <img src="{{ new.image.url }}" style="width: 40%;" alt="Nem sikerült betölteni">
-    {% endfor %}
+	{% endif %}    
+{% endfor %}
 </body>
 </html>
