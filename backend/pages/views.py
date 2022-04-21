@@ -14,3 +14,6 @@ def waybackView(request):
 
 def timebackView(request):
     return render(request, 'timemachine.html')
+
+def prView(request):
+    return render(request, 'pr.html')
