@@ -133,3 +133,4 @@ dmypy.json
 media/
 migrations/
 secret.py
+settings.py
