@@ -1,8 +1,14 @@
-.card{
-    width: 30%;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.grid-sizer, .card{
+    width: 20vw;
     height: fit-content;
-    margin: auto;
-    background-color: rgba(255, 255, 255, 0.5)
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 2vw;
+    max-width: 300px;
+}
+.gutter-sizer{
+    width: 2vw;
 }
 .card *{
     padding: 10px;
@@ -10,20 +16,30 @@
 }
 .grid {
     margin: auto;
-    width: 75%;
-    max-width: 7000px;
+    width: calc( 3 * 20vw + 2 * 2vw );
+    max-width: calc( 3 * 300px + 2 * 2vw );
 }
 
-
 #particles-js{
-    position: absolute;
+    position: fixed;
     background: black;
-    width: 100%;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
     z-index: -1;
     overflow: hidden;
 }
-#particles-js canvas {
-    height: auto;
+
+.heading {
+    padding-top: 2vh;
+    text-align: center;
     width: 100%;
-    overflow: hidden;
+    height: 7vh;
+}
+
+.heading h1 {
+    color: gold;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    font-family: 'Ordbitron', sans-serif;
 }
