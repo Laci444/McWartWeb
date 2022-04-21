@@ -1,0 +1,139 @@
+html, body,h1, h2, h3, h4, h5, h6,div, span, p, a, img,em, strong, b, i, font,
+table, tr, th, td,ul, ol, li, dl, dd, dt,form, select, input, textarea,img {
+	font: inherit;
+	color: inherit;
+	background: none;
+	background-color:inherit;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	border: 0;
+}
+body{
+ font-family: Tahoma,sans-serif;
+ font-size: 11px;
+ color: rgb(0,0,0);
+}
+body *{text-align: left;font-family: Tahoma,sans-serif;}
+.dbhu-offscreen{
+  position: absolute;
+  left: -9999em;
+  display: none; /*DEBUG: ??*/
+}
+.dbhu-pos-left{
+	float: left;
+}
+.dbhu-pos-right{
+	float: right;
+}
+.dbhu-spacer{
+	position: relative;
+	clear: both;
+	border: 1px solid white;
+}
+.dbhu-spacer-nb{
+	position: relative;
+	clear: both;
+	height: 0px;
+	border: 0px solid white;
+}
+.dbhu-v{
+	position: relative;
+	display: block;
+	clear: none;
+	float: left;
+	border: 1px solid white;
+	width: 10px;
+}
+.dbhu-blue{
+	color: rgb(50,74,127);
+	background-color: inherit;
+}
+.dbhu-white{
+	color: rgb(255,255,255);
+	background-color: inherit;
+}
+.dbhu-left{
+	text-align: left;
+}
+.dbhu-right{
+	text-align: right;
+}
+.dbhu-center, .centered{
+	text-align: center !important;
+}
+.centered{
+	display: block;
+}
+strong{
+	font-weight: bold;
+}
+em{
+	font-style: italic;
+}
+h2{
+	font-size: 12px;
+	color: rgb(255,255,255);
+	font-weight: bold;
+}
+h2.dbhu-extra{
+	color: rgb(50,75,128);
+}
+h2.dbhu-bluebox-title{
+	margin: 1em auto 0 1em;
+	text-align: left;
+	padding-top: 3px;
+	position: relative;
+}
+h3{
+	font-size: 12px;
+	font-weight: bold;
+}
+input, select{
+	font-size: 11px;
+	line-height: 16px;
+	background: white;
+	color:  rgb(50,75,128);
+}
+input.dbhu-button{
+	padding: 0;
+}
+input.dbhu-small{
+	font-size: 10px;
+	background: transparent;
+}
+a{
+	color:  rgb(50,75,128);
+	background: transparent;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+input.dbhu-normal, select.dbhu-normal{
+	width: 10em !important;
+	height: 1.3em !important;
+}
+
+/*
+     FILE ARCHIVED ON 08:19:13 Jul 08, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:33:28 Apr 19, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 295.277
+  exclusion.robots: 0.094
+  exclusion.robots.policy: 0.086
+  RedisCDXSource: 0.664
+  esindex: 0.009
+  LoadShardBlock: 274.379 (3)
+  PetaboxLoader3.datanode: 261.637 (4)
+  CDXLines.iter: 17.753 (3)
+  load_resource: 134.042
+  PetaboxLoader3.resolve: 46.339
+*/

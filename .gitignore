@@ -132,3 +132,4 @@ dmypy.json
 # sajat dolgok
 media/
 migrations/
+secret.py

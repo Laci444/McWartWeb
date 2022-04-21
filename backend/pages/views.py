@@ -8,3 +8,9 @@ def indexView(request):
     }
 
     return render(request, 'index.html', context=context_obj)
+
+def waybackView(request):
+    return render(request, 'wayback.html')
+
+def timebackView(request):
+    return render(request, 'timemachine.html')
