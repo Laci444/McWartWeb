@@ -12,6 +12,7 @@
     <link href="https://fonts.cdnfonts.com/css/revamped" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'news.css' %}">
     <link rel="shortcut icon" href="{% static 'debrecen_logo.png' %}" type="image/png">
+    <link rel="stylesheet" href="{% static 'search.css' %}">
     <title>Hírek</title>
 </head>
 
@@ -21,6 +22,11 @@
     <header class="heading">
         <h1>HÍREK</h1>
     </header>
+
+    <form action="./" method="GET">
+        <input name="search" required='' type='text'>
+        <label alt='Keresés' placeholder='Keresés'></label>
+      </form>
 
     <div class="grid" data-masonry='{ "itemSelector": ".card", "columnWidth": ".grid-sizer", "gutter": ".gutter-sizer"}'>
         <div class="grid-sizer"></div>
